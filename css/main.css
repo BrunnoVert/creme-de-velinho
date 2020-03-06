@@ -2645,8 +2645,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .faq-area {
-  background: url(../img/faq-bg.jpg) center;
-  background-size: cover;
+  /* background: url(../img/faq-bg.jpg) center; */
+  /* background-size: cover; */
+  background-color: #faf9ff;
 }
 
 .faq-left .card {
