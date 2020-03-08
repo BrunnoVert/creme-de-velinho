@@ -146,6 +146,15 @@ $(document).ready(function(){
     });
   
 
+      // Floating Buy Button
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('#floater').addClass('floater-scrolled');
+    } else {
+      $('#floater').removeClass('floater-scrolled');
+    }
+  })
+
   // Header scroll class
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
