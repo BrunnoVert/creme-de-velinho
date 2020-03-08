@@ -2216,15 +2216,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-bg, .primary-btn, .home-about-area .home-about-right .primary-btn, .single-unique-product:hover .primary-btn, .faq-left .card-header, .single-footer-widget .click-btn, .generic-banner {
-  background-image: -moz-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
-  background-image: -webkit-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
-  background-image: -ms-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,40,51,1) 35%, rgba(74,108,128,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,40,51,1) 35%, rgba(74,108,128,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,40,51,1) 35%, rgba(74,108,128,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#4a6c80",GradientType=1);
 }
 
 .p1-gradient-color, .footer-social a:hover i, .single-footer-widget .bb-btn {
-  background: -moz-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
-  background: -webkit-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
-  background: -ms-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,40,51,1) 35%, rgba(74,108,128,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,40,51,1) 35%, rgba(74,108,128,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,40,51,1) 35%, rgba(74,108,128,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#4a6c80",GradientType=1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2677,7 +2681,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-area {
   padding-top: 100px;
-  background-color: #04091e;
+  background-color: #1A140C;
 }
 
 h6 {
@@ -2821,7 +2825,7 @@ h6 {
 }
 
 .footer-text a, .footer-text i {
-  color: #235ee7;
+  color: #567E94;
 }
 
 .whole-wrap {
