@@ -28,7 +28,7 @@
 			<link rel="stylesheet" href="css/animate.min.css">
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
-
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 			<style>
 
 		@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
@@ -45,7 +45,17 @@
 		</head>
 		<body>
 
-			  <header id="header" id="home">
+				<div id="floater" class="card" style="width: 16rem;">
+					<div class="card-body text-center">
+					  <h5 class="card-title">CREME VELINHO   <span class="price-btn">R$99,99</span></h5>
+					  <a href="#" class="button-floater">COMPRAR AGORA!</a>
+					</div>
+				  </div>
+			
+			
+			
+			
+			<header id="header" id="home">
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
@@ -246,7 +256,7 @@
 							</div>
 						</div>
 						<div class="col-lg-6 course-middle">
-							<img class="img-fluid mx-auto d-block" src="img/c1.jpg" alt="">
+							<img class="img-fluid mx-auto d-block" src="img/timelapse.gif" alt="">
 						</div>
 						<div class="col-lg-3 course-right" style="margin-top: 16px;">
 							<div class="single-course">
@@ -584,6 +594,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script><br> T
 			</footer>
 			<!-- End footer Area -->
 
+			<script>
+				$(window).scroll(function() {
+				var winScrollTop = $(window).scrollTop();
+				var winHeight = $(window).height();
+				var floaterHeight = $('#floater').outerHeight(true);
+				var fromBottom = 20;
+				var top = winScrollTop + winHeight - floaterHeight - fromBottom;
+				$('#floater').css({'top': top + 'px'});
+			});
+			</script>
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>
